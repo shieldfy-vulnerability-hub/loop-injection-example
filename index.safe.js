@@ -10,7 +10,7 @@ app.post('/test', (req, res) => {
         return
     }
 
-    for (let index = 0; index < obj.length.length; index++) {
+    for (let index = 0; index < obj.length; index++) {
         const element = obj.length[index];
         
     }
