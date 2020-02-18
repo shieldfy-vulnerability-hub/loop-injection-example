@@ -5,7 +5,7 @@ const port = 3000
 app.post('/test', (req, res) => {
     var obj = req.body
 
-    for (let index = 0; index < obj.length.length; index++) {
+    for (let index = 0; index < obj.length; index++) {
         const element = obj.length[index];
         
     }
